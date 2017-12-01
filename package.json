@@ -1,22 +1,37 @@
 {
-    "version": "0.1",
-    "name": "com.applurk.cordova-screen-locker",
-    "cordova_name": "ScreenLocker",
-    "description": "Plugin allows lock and unlock device screen by calling plugin",
-    "license": "Apache 2.0",
-    "repo": "",
-    "issue": "",
-    "keywords": [
-        "cordova",
-        "device",
-        "lock",
-        "unlock",
-        "screen",
-        "android"
-    ],
-    "platforms": [
-        "android"
-    ],
-    "engines": [],
-    "englishdoc": ""
+   "version":"0.1.1",
+   "name":"com.applurk.cordova-screen-locker",
+   "description":"Plugin allows lock and unlock device screen by calling plugin",
+   "cordova":{
+      "id":"cordova-plugin-screen-locker",
+      "platforms":[
+         "android"
+      ]
+   },
+   "repository":{
+      "type":"git",
+      "url":"https://github.com/SteffenDE/cordova-plugin-screen-locker.git"
+   },
+   "keywords":[
+      "screenlock",
+      "ecosystem:cordova",
+      "cordova-android"
+   ],
+   "engines":[
+      {
+         "name":"cordova",
+         "version":">=3.0.0"
+      }
+   ],
+   "license":"Apache 2.0",
+   "repo":"",
+   "issue":"",
+   "keywords":[
+      "cordova",
+      "device",
+      "lock",
+      "unlock",
+      "screen",
+      "android"
+   ]
 }
